@@ -8,7 +8,7 @@ const ProjectCard = ({
     codeUrl,
     projectUrl
 }) => {
-    return ( 
+    return (
         <div className="project-card">
             <div className="image-container">
                 <a href={projectUrl} className="project-external-link">
@@ -20,10 +20,10 @@ const ProjectCard = ({
                 <p className="project-details">
                     {projectDescription}
                 </p>
-                <a href={codeUrl} className="project-yt-link">See Code!</a>
+                <a href={codeUrl} className="project-yt-link">Checkout Code!</a>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default ProjectCard;
