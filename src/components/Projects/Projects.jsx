@@ -1,10 +1,13 @@
 import React from 'react';
 import './Projects.css';
-
+import Header from '../Header/Header';
+import Footer from '../../components/Footer/Footer';
 const Projects = () => {
     return ( 
         <div className="section-container">
-            <h1>Im projects page</h1>
+            <Header heading="My Projects."
+                details="Here are a few cool things I've worked on, do check them out!" />
+            <Footer phrase="contact me" link="Contact" toAdress="/contact" />
         </div>
      );
 }

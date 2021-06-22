@@ -39,8 +39,8 @@ const About = () => {
 
             <Footer
                 phrase='Check out my '
-                link='projects!'
-                toAdress='/projects'
+                link='Skills!'
+                toAdress='/skills'
             />
             {/* Vector Frame! */}
             <div className='vector-frame'>

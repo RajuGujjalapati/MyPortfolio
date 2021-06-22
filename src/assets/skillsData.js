@@ -5,11 +5,11 @@ export const skillList = [
     },
     {
         skillName: 'Flask',
-        skillUrl: 'https://github.com/RajuGujjalapati/MyPortfolio/blob/master/src/assets/flask-cropped.png',
+        skillUrl: 'https://user-images.githubusercontent.com/57700376/122898995-05f68180-d369-11eb-96f2-24abee8297ac.png',
     },
     {
         skillName: 'Django',
-        skillUrl: 'https://github.com/RajuGujjalapati/MyPortfolio/blob/master/src/assets/dj-cropped.png',
+        skillUrl: 'https://user-images.githubusercontent.com/57700376/122898865-e0697800-d368-11eb-96a7-f18ec4ce7daf.png',
     },
     {
         skillName: 'HTML',
