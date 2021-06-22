@@ -14,17 +14,17 @@ const About = () => {
             <div className='about-main'>
                 <div className='about-main-left'>
                     {/* Sub section 1 */}
-                    <h3 className='about-sub-head'>Teacher</h3>
+                    <b><i className='about-sub-head'>Howdy! A bit of me</i></b>
                     <p className='about-details'>
-                        Teaching is my passion, till now, I've taught thousands
-                        of students about Programming and Web Development. Check
-                        out{' '}
-                        <a
+                    I am a Software Engineer who enjoys solving complex problems.<br />
+                    I have a keen interest in Competitive Programming using Data Structure and Algorithms.<br /><br /><br />
+                        
+                        {/* <a
                             className='about-link-element'
                             href='http://theleanprogrammer.com/aam'
                         >
                             my free react courses!
-                        </a>
+                        </a> */}
                     </p>
                 </div>
 
