@@ -23,7 +23,7 @@
   font-size: 3em;
   text-align: center;
   letter-spacing: 0.2px;
-  color: rgb(226, 217, 217);
+  color: rgb(255, 250, 250);
   margin: 10px;
 }
 .header-text > p {
@@ -90,6 +90,12 @@
 }
 .home-align {
   margin-bottom: 80px;
+}
+.test {
+  /* margin-bottom: -10px; */
+  color: aliceblue;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /* For small height screen sizes */
