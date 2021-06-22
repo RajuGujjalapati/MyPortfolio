@@ -14,7 +14,7 @@ class GoHome extends Component{
         const whiteBtn = location.pathname === "/";
 
         return(
-            <button onClick={this.navigationToHome} className={`go-home-btn ${whiteBtn ? `white-bkg` : `black-bkg`}`}>
+            <button onClick={this.navigationToHome} className={`go-home-btn ${whiteBtn ? `white-bkg` : `black-bkg gradient-bkg `}`}>
                 <img className="home-icon"
                 src={ whiteBtn ? blackHomeIcon : homeicon } 
                 alt="home-icon" />

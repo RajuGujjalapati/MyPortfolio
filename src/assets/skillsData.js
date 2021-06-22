@@ -1,5 +1,17 @@
 export const skillList = [
     {
+        skillName: 'Python',
+        skillUrl: 'https://images-eu.ssl-images-amazon.com/images/I/41eVkHJhdRL.png',
+    },
+    {
+        skillName: 'Flask',
+        skillUrl: 'https://user-images.githubusercontent.com/57700376/122898995-05f68180-d369-11eb-96f2-24abee8297ac.png',
+    },
+    {
+        skillName: 'Django',
+        skillUrl: 'https://user-images.githubusercontent.com/57700376/122898865-e0697800-d368-11eb-96a7-f18ec4ce7daf.png',
+    },
+    {
         skillName: 'HTML',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
     },
@@ -14,27 +26,8 @@ export const skillList = [
     {
         skillName: 'React',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
-    },
-    {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
-    },
-    {
-        skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
-    },
-    {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
-    },
-    {
-        skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
-    },
-    {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
-    },
+    }, 
+  
     {
         skillName: 'MongoDB',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
