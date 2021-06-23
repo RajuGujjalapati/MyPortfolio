@@ -4,27 +4,28 @@ import './About.css';
 import aboutVector from '../../assets/about_vector.png';
 import aboutAnime from '../../assets/about_anime.gif'
 import Footer from '../Footer/Footer';
+import Typewriter from 'typewriter-effect';
 
 const About = () => {
-    return ( 
+    return (
         <div className="section-container">
             <Header heading="About Me."
-            details="Not a blogger | Not a Youtuber | A Normal Engineer " 
-            />        
+                details="Programmer | Loves Competetive Programming which i never did."
+            />
             <div className='about-main'>
                 <div className='about-main-left'>
                     {/* Sub section 1 */}
                     <b><i className='about-sub-head'>Howdy! A bit of me</i></b>
                     <p className='about-details'>
-                    I am a Software Engineer who enjoys solving complex problems.<br />
-                    I have a keen interest in Competitive Programming using Data Structure and Algorithms.<br /><br /><br />
-                        
-                        {/* <a
-                            className='about-link-element'
-                            href='http://theleanprogrammer.com/aam'
-                        >
-                            my free react courses!
-                        </a> */}
+                        I am a Software Engineer who enjoys solving complex problems.<br />
+                        I have a keen interest in Competitive Programming using Data Structure and Algorithms.<br /><br /><br />
+                        <Typewriter
+                            options={{
+                                strings: "Curently i'm having 1+ year(s) of development experience in software industry.<br> <br> <h1> #OpenToWork</h1>. ",
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
                     </p>
                 </div>
 
@@ -50,5 +51,5 @@ const About = () => {
     );
 };
 
- 
+
 export default About;
