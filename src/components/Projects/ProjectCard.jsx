@@ -20,7 +20,7 @@ const ProjectCard = ({
                 <p className="project-details">
                     {projectDescription}
                 </p>
-                <a href={codeUrl} className="project-yt-link">Checkout Code!</a>
+                <a href={codeUrl} className="project-yt-link">Source Code!</a>
             </div>
         </div>
     );
